@@ -28,4 +28,4 @@ this repo is made in nodejs, which means you can only host this on a few platfor
 * [tinyurl](https://tinyurl.com) - inspiration
 
 ## license
-this website is registered under the [MIT license](license)
+this website is registered under the [MIT license](LICENSE)
