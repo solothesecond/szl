@@ -19,7 +19,7 @@ app.post("/api/shorten", (req, res) => {
     return res.status(400).json({ error: "URL is required" });
   }
 
-  const validDomains = ["sizzlent", "szlmom"];
+  const validDomains = ["sizzlent.com", "szl.my"];
   if (!validDomains.includes(domain)) {
     return res.status(400).json({ error: "invalid domain selected" });
   }
@@ -29,7 +29,7 @@ app.post("/api/shorten", (req, res) => {
   }
   const shortAlias = alias || Math.random().toString(36).substr(2, 6);
   urlDatabase[shortAlias] = longUrl;
-  const shortUrl = `http://${domain}.com/${shortAlias}`;
+  const shortUrl = `http://${domain}/${shortAlias}`;
   res.json({ shortUrl });
 });
 
