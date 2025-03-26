@@ -1,6 +1,6 @@
 # sizzzlent
 
-quickly shorten your long ass links
+quickly shorten your long frickin links
 
 
 ### prerequisites
@@ -19,7 +19,7 @@ npm start
 ```
 ## deploy
 
-this repo is made in nodejs, which means you can only host this on a few platforms. i personally recommend [render](https://render.com/deploy?repo=https://github.com/szvy/sizzlent)
+this repo is made in nodejs, which means you can only host this on a few platforms. i personally recommend [render](https://render.com/deploy?repo=https://github.com/solothesecond/szl)
 
 
 ## credits
